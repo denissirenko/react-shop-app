@@ -3,7 +3,15 @@ export const Header = () => {
         <div className="nav-wrapper">
         <a href="https://github.com/denissirenko" className="brand-logo">React Shop</a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
-            <li><a href="https://github.com/denissirenko">My Repo</a></li>
+            <li>
+                <a 
+                    href="https://github.com/denissirenko"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                        My Repo
+                </a>
+            </li>
         </ul>
         </div>
     </nav>
