@@ -26,7 +26,7 @@ export const BasketItem = (props) => {
             >
                 add
             </i>{' '}
-            = {price * quantity} руб.
+            = {price * quantity} грн
             <span
                 className='secondary-content'
                 onClick={() => removeFromBasket(id)}

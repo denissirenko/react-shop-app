@@ -32,7 +32,7 @@ export const GoodsItem = (props) => {
                     Купить
                 </button>
                 <span className='right' style={{ fontSize: '1.8rem' }}>
-                    {price} uhy
+                    {price} грн
                 </span>
             </div>
         </div>
