@@ -14,7 +14,7 @@ export function reducer(state, {type, payload}) {
         case 'REMOVE_FROM_BASKET':
             return {
                 ...state,
-                order: state.order.filter((el) => el.id !== payload.id),
+                order: state.order.filter((el) => el.id !== payload),
             }
         case 'ADD_TO_BASKET': {
             const itemIndex = state.order.findIndex(orderItem => orderItem.id === payload.id);

@@ -32,7 +32,7 @@ export const ContextProvider = ({ children }) => {
     };
 
     value.removeFromBasket = (itemId) => {
-        dispatch({type: 'REMOVE_FROM_BASKET', payload: {itemId}})
+        dispatch({type: 'REMOVE_FROM_BASKET', payload: itemId })
     };
 
     value.handleBasketShow = () => {

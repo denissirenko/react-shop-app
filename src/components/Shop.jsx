@@ -21,9 +21,9 @@ export const Shop = () => {
             .then((response) => response.json())
             .then((data) => {
                 setGoods(data.featured);
-                // eslint-disabled-next-line
             });
-    }, [setGoods]);
+            // eslint-disable-next-line
+    }, []);
 
     return (
         <div className='container content'>
